@@ -1,0 +1,666 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+    width: 98.7vw;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+}
+header{
+    background-color: black;
+    height: 10vh;
+    width: 98.7vw;
+    display: flex;
+}
+header>.img{
+    width: 15vw;
+    border-right: 1px solid #4b4a4a;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+header>.img>img{
+    width: 80%;
+    height: 60%;
+}
+header>.resources{
+    width: 15vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: #8b8b8b;
+}
+header>.blank{
+    width: 45vw;
+    border-right: 1px solid #4b4a4a;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+header>.Desktop-view{
+    width: 5vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+    color: #8b8b8b;
+    border-right: 1px solid #4d4d4d;
+    font-size: 2rem;
+}
+header>.Tablet-view{
+    width: 5vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+    color: #8b8b8b;
+    border-right: 1px solid #4d4d4d;
+    font-size: 2rem;
+}
+header>.Smartphone-view{
+    width: 5vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+    color: #8b8b8b;
+    border-right: 1px solid #4d4d4d;
+    font-size: 2rem;
+}
+header>.Buy-Now{
+    width: 5vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7AC64D;
+    color: White;
+    border-right: 1px solid #4d4d4d;
+    font-size: 2rem;
+}
+header>.Buy-Now:hover{
+    background-color: black;
+}
+header>.Close{
+    width: 5vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+    color: #8b8b8b;
+    border-right: 1px solid #4d4d4d;
+    font-size: 2rem;
+}
+header>div:hover{
+    cursor: pointer;
+    color: white;
+}
+.hero>.header{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin:0% 10%;
+    margin-top: 5vh;
+    font-size: 2rem;
+    align-items: center;
+}
+.hero>.header>ul{
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    gap: 15%;
+    margin-right: 15vw;
+}
+li>select{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    width: 100px;
+}
+li>select>option{
+    color: #222222;
+}
+.hero>.header>p::selection{
+    background-color: black;
+}
+.hero>.header>p:hover{
+    cursor: pointer;
+}
+.hero>.header li:hover{
+    cursor: pointer;
+}
+.hero>.header li::selection{
+    background-color: black;
+}
+li>select::selection{
+    background-color: black;
+}
+.hero>h1{
+    margin-top: 35vh;
+    font-size: 3rem;
+    margin: 10%;
+    width: 40%;
+    color: white;
+    margin-bottom: 3vh;
+    font-weight: 100;
+    word-spacing: 7px;
+}
+.hero>h1>span{
+    font-weight: 790;
+}
+.hero>h1>span::selection{
+    background-color: black;
+}
+.hero>h1::selection{
+    background-color: black;
+}
+.hero>p{
+    width: 38%;
+    margin: 0% 10%;
+    font-size: 1rem;
+    line-height: 35px;
+    color: white;
+    font-weight: -100;
+}
+.hero>p::selection{
+    background-color: black;
+}
+.hero>.button{
+    margin: 2% 10%;
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+}
+.hero>.button>button{
+    background-color: #0389FF;
+    padding: 5% 8%;
+    color: white;
+    font-size: 0.8rem;
+    outline: none;
+    border: none;
+}
+.hero>.button>p{
+    padding: 5% 8%;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    margin-right: 5%;
+}
+.hero>.button>p::selection{
+    background-color: black;
+}
+.cards{
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: -10%;
+    padding: 2%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.cards>.card{
+    width: 24vw;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 3%;
+    box-shadow: 5px 5px 10px 10px rgb(230, 230, 230);
+}
+.cards>.card>img::selection{
+    background-color: black;
+    color: white;
+}
+.cards>.card>h4::selection{
+    background-color: black;
+    color: white;
+}
+.cards>.card>p::selection{
+    background-color: black;
+    color: white;
+}
+.cards>.card>button::selection{
+    background-color: black;
+    color: white;
+}
+.cards>.card>img{
+    width: 30%;
+}
+.cards>.card>h4{
+    font-size: 1.4rem;
+    margin-bottom: 7%;
+    font-weight: lighter;
+}
+.cards>.card>p{
+    font-size: 1rem;
+    color: #7c7c7c;
+    line-height: 28px;
+}
+.cards>.card>button{
+    margin-top: 8%;
+    padding: 2% 5%;
+    padding-left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.1rem;
+}
+.whyus{
+    width: 98.4vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 2% 5%;
+}
+.nested{
+    width: 48%;
+}
+.nested::selection{
+    background-color: black;
+    color: white;
+}
+.nested>h1{
+    font-weight: lighter;
+    width:89.5%;
+    margin-left: 30px;
+    margin-top: 8%;
+}
+.nested>h1::selection{
+background-color: black;
+    color: white;
+}
+.nested img::selection{
+    background-color: black;
+        color: white;
+    }
+.nested>.img{
+    width: 90%;
+    height: 67%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin: auto;
+    margin-top: 10%;
+}
+.nested>.img>img{
+    width: 100%;
+}
+.nested>.img>img:hover{
+    cursor: grab;
+}
+.nested>ul{
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: light;
+    line-height: 8vh;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.nested>ul>li::selection{
+    background-color: black;
+    color: white;
+}
+.nested>ul>li:hover{
+    cursor: pointer;
+}
+.nested>ul>li:active{
+    color: #0389FF;
+}
+.feedback{
+    width: 98.4vw;
+    height: 40vh;
+    background-color: #eceef0;
+    display: flex;
+    justify-content: space-evenly;
+}
+figure{
+    font-size: 5rem;
+    margin-top: 5%;
+    color: #0389FF;
+    text-align: center;
+}
+figure::selection{
+    background-color: black;
+    color: white;
+}
+figure>figcaption{
+    font-size: 1rem;
+    text-align: center;
+    color: #747474;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ul>p::selection{
+    background-color: black;
+}
+ul>p>span::selection{
+    background-color: black;
+    color: white;
+}
+figure>figcaption::selection{
+    background-color: #8d8d8d;
+    color: white;
+}
+.leadership{
+    width: 98.4vw;
+    height: 100vh;
+    margin: 0% 0%;
+    margin-top: 6%;
+}
+.leadership>h1{
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.leadership>h1::selection{
+    background-color: black;
+    color: white;
+}
+.leadership>.members{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.leadership>.members>.member{
+    height: 100%;
+    width: 24vw;
+    box-shadow: 1px 1px 5px 5px #d6d6d6;
+}
+.a1{
+    background-image: url(images/staff1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b2{
+    background-image: url(images/staff2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c3{
+    background-image: url(images/staff3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.leadership>.members>.member>.text{
+    width: 90%;
+    border: 1px groove;
+    margin: auto;
+    height: 15vh;
+    background-color: white;
+    margin-top: 75%;
+    box-sizing: border-box;
+    padding: 5%;
+}
+.leadership>.members>.member>.text>b{
+    font-size: 1.5rem;
+}
+.leadership>.members>.member>.text>p{
+    margin-top: 2%;
+    font-size: 0.8rem;
+    color: #afafaf;
+    font-weight: 600;
+}
+.leadership>.members>.member>.text>::selection{
+    background-color: black;
+    color: white;
+}
+.happy{
+    width: 98.3vw;
+    height: 80vh;
+}
+.happy>h1{
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+.happy>h1::selection{
+    background-color: black;
+    color: white;
+}
+.happy>.comma{
+    text-align: center;
+    font-size: 10rem;
+    margin-top: 1%;
+}
+.happy>#p{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: -50px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    color: #494949;
+}
+.happy>address{
+    text-align: center;
+    margin-top: 2%;
+    color: #505050;
+    font-size: 1.1rem;
+}
+.happy>.circle{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    color: #b6b6b6;
+}
+.happy>.circle>span{
+    color: black;
+}
+.happy>.circle:hover{
+    cursor: grab;
+}
+.happy ::selection{
+    background-color: black;
+    color: white;
+}
+.our-services{
+    width: 98.7vw;
+    background-color: #F8F9FA;
+
+}
+.our-services ::selection{
+    background-color: black;
+    color: white;
+}
+.our-services>h1{
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+}
+.our-services>.services{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-services>.services>.service{
+    height: 40vh;
+    width: 33.33%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.our-services>.services>.service>img{
+    width: 20%;
+}
+.our-services>.services>.service>h1{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+.our-services>.services>.service>p{
+    line-height: 30px;
+    color: #929292;
+    font-weight: 500;
+}
+.our-services button{
+    margin: 3.5% 0%;
+    width: 14%;
+    height: 9vh;
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    letter-spacing: 1.2px;
+}
+.our-blog{
+    width: 98.4vw;
+    height: 190vh;
+    padding-bottom: 7%;
+}
+.our-blog>h1{
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    letter-spacing: 2px;
+}
+.our-blog>p{
+    width: 40%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1rem;
+    margin: auto;
+    letter-spacing: 1.1px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #838383;
+    margin-bottom: 10%;
+}
+.our-blog>.blog{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    box-shadow: 1px 1px 5px 5px #7c7c7c;
+}
+#a1{
+    width: 64.9%;
+    height: 55%;
+    margin: -1px;
+    outline: none;
+    border: none;
+}
+#a2{
+    width: 35%;
+    height: 55%;
+    margin: 0px;
+    outline: none;
+    border: none;
+}
+#a3{
+    width: 34.9%;
+    height: 45%;
+    outline: none;
+    border: none;
+    margin-top: -1%;
+    margin-left: -1px;
+}
+#a4{
+    width: 65%;
+    height: 45%;
+    margin: 0px;
+    outline: none;
+    border: none;
+    margin-top: -1%;
+}
+.our-blog ::selection{
+    background-color: black;
+    color: white;
+}
+footer{
+    width: 98.7vw;
+    height: 80vh;
+    background-color: #fcfbfb;
+    display: flex;
+    padding: 1% 4%;
+    box-sizing: border-box;
+    padding-left: 8%;
+}
+footer ::selection{
+    background-color: black;
+    color: white;
+}
+.foot-div{
+    width: 16.5%;
+    height: 40%;
+    margin-top: 10%;
+}
+.foot-div.long{
+    width: 28%;
+}
+.foot-div.long>h2{
+    margin-top: 2%;
+}
+.foot-div>h2{
+    color: #bbbbbb;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 4%;
+    margin-top: 10%;
+}
+.foot-div>ul{
+    list-style: none;
+    margin: 4%;
+}
+.foot-div>ul>li{
+    margin-top: 5%;
+}
+.foot-div>p{
+    line-height: 30px;
+    margin: 4%;
+    margin-right: 5%;
+}
+.foot-div>.icon>i{
+    font-size: 2rem;
+}
+.icon{
+    width: 90%;
+    margin: auto;
+}
+footer{
+    position: relative;
+}
+footer>p{
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
